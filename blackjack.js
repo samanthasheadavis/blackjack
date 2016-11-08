@@ -1,7 +1,7 @@
 function runGame() {
     //function to pick a random number and assign it to a card in the deck.
     var display = document.getElementById('cards');
-    var cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9', 'J', 'Q', 'K'];
+    var cards = ['A', '2', '3', '4', '5', '6', '7', '8', '9','10', 'J', 'Q', 'K'];
     var cardValue = 0;
 
     function hit() {
